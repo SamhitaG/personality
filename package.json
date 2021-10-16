@@ -1,0 +1,25 @@
+{
+  "name": "casual_friend_finder",
+  "version": "1.0.0",
+  "description": "Friend finder app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ELVANRODRIGUEZ/CASUAL-FRIEND-FINDER.git"
+  },
+  "author": "Elvan Lopez Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ELVANRODRIGUEZ/CASUAL-FRIEND-FINDER/issues"
+  },
+  "homepage": "https://github.com/ELVANRODRIGUEZ/CASUAL-FRIEND-FINDER#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "friends": "file:app/data",
+    "path": "^0.12.7"
+  }
+}
